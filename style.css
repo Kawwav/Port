@@ -1,0 +1,238 @@
+#nome {
+    font-size: 60px;
+    margin-left: 150px; 
+    justify-content: space-evenly;
+
+}
+
+#info{
+    font-size: 25px;
+    margin-left: 150px; 
+    position: absolute;
+    right:0;
+    margin-right: 15%;
+    margin-top: -60px;
+}
+
+#info2{
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: -20px;
+}
+
+.linha-estilizada {
+    border: 0;
+    height: 1px; 
+    background-color: #000000; 
+    width: 85%;  
+}
+
+.linha-estilizada2 {
+    border: 0;
+    height: 1px; 
+    background-color: #000000; 
+    width: 109%; 
+    
+}
+
+.linha-estilizada3 {
+    border: 320;
+    height: 10px; 
+    background-color: #000000; 
+    width: 5%; 
+    margin-top: -10px;
+    position: absolute;
+    margin-left: 100px; 
+}
+
+.linha-estilizada4 {
+    border: 320;
+    height: 10px; 
+    background-color: #000000; 
+    width: 5%; 
+    margin-top: -12px;
+    position: absolute;
+    
+}
+
+
+#titulo{
+font-size: 45px;
+margin-left: 100px;
+}
+
+#titulo2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#titulo3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+
+}
+
+#sobre{
+    font-size: 20px;
+    margin-left: 100px;
+    justify-content:flex-start ;
+    width: 80%;  
+    font-weight: normal;
+}
+
+
+#sobre img {
+    width: 35%; 
+    height: auto; 
+    transition: transform 0.3s ease-in-out;
+}
+
+#sobre img:hover {
+    transform: scale(1.1); 
+}
+
+
+.container {
+    display: flex;              
+    justify-content: flex-end;  
+    gap: 10px;                 
+    position: fixed;           
+    top: 20px;                  
+    right: 20px;                
+}
+
+.container img {
+    width: 70px;                
+    height: auto;               
+}
+
+
+/* CONFIGURAÇÕES DAS TELAS */
+
+@media screen and (min-width: 1920px) {
+
+    #titulo{
+        font-size: 50px;
+        margin-left: 150px;
+        }
+
+        #sobre{
+            font-size: 20px;
+            margin-left: 150px;
+            justify-content:flex-start ;
+            width: 80%;  
+        }
+
+        .linha-estilizada3 {
+            border: 320;
+            height: 10px; 
+            background-color: #000000; 
+            width: 5%; 
+            margin-top: -10px;
+            position: absolute;
+            margin-left: 140px; 
+        }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #nome {
+        font-size: 35px;
+        margin-left: 10%;
+        
+    }
+
+    #info {
+        font-size: 20px;
+        margin-top: 10px; 
+        display: block; 
+    }
+
+    #info2 {
+        font-size: 20px;
+        margin-top: 10px; 
+        margin-left: 10%; 
+        display: block; 
+    }
+
+    .linha-estilizada {
+        border: 0;
+        height: 2px; 
+        background-color: #000000; 
+        width: 85%;
+        margin-top: 150px; 
+        
+    }
+
+    .linha-estilizada2 {
+        border: 0;
+        height: 2px; 
+        background-color: #000000; 
+        width: 105%;
+        margin-top: 150px; 
+        
+    }
+
+    
+    .linha-estilizada3 {
+    border: 320;
+    height: 10px; 
+    background-color: #000000; 
+    width: 15%; 
+    margin-top: -10px;
+    position: absolute;
+    margin-left: 15px; 
+    }   
+
+    .linha-estilizada4 {
+        border: 320;
+        height: 10px; 
+        background-color: #000000; 
+        width: 15%; 
+        margin-top: -11px;
+        position: absolute;
+        
+        }  
+
+    #titulo{
+        font-size: 40px;
+        margin-left: 10%;
+        }
+
+    #sobre{
+        font-size: 20px;
+         margin-left: 10%;
+         justify-content:flex-start ;
+         width: 80%;  
+         font-weight: normal;
+    }
+
+    #sobre img {
+        width: 250px; 
+       
+        height: auto; 
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    #sobre img:hover {
+        transform: scale(1.1); 
+    }
+
+    .container {
+        display: flex;              
+        justify-content: flex-end;  
+        gap: 10px;                 
+        position: fixed;           
+        top: 20px;                  
+        right: 20px;                
+    }
+    
+    .container img {
+        width: 40px;                
+        height: auto;               
+    }
+}
+
+    
